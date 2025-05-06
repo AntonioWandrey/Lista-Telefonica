@@ -2,33 +2,27 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
-    <title>Projeto AngularJS</title> <!-- Título da aba -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Projeto AngularJS</title> 
 
-    <!-- Bootstrap CSS para estilos prontos -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-    <!-- Arquivo de estilos customizados -->
     <link rel="stylesheet" href="./css/customs.css">
 
-    <!-- Bibliotecas JS necessárias -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- AngularJS e ui-router -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.29/angular-ui-router.min.js"></script>
 
-    <!-- Scripts da aplicação -->
     <script src="./app.js"></script>
     <script src="./route.js"></script>
     <script src="./Controller/mainCtrl.js"></script>
     <script src="./Controller/contatoCtrl.js"></script>
 
-    <!-- Serviços (aparentemente placeholders) -->
     <script src="./Controller/contatoService1.js"></script>
     <script src="./Controller/contatoService2.js"></script>
     <script src="./Controller/contatoService3.js"></script>
@@ -37,9 +31,7 @@
     <script src="./Controller/contatoService6.js"></script>
 </head>
 
-<!-- Aponta para o módulo principal do Angular -->
 <body ng-app="HellWord">
-    <!-- Onde o conteúdo das rotas será carregado -->
     <ui-view></ui-view>
 </body>
 

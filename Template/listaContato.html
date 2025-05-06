@@ -1,24 +1,20 @@
-<!-- View responsável pela lista de contatos -->
 <div ng-controller="contatoCtrl">
-    <div class="jumbotron"> <!-- Container com estilo visual agradável -->
-        <h3>{{app}}</h3> <!-- Título da aplicação vindo do controller -->
+    <div class="jumbotron"> 
+        <h3>{{app}}</h3> 
 
-        <!-- Tabela de contatos -->
         <table class="table table-bordered table-striped table-hover">
-            <thead class="thead-dark"> <!-- Cabeçalho escuro com títulos -->
+            <thead class="thead-dark"> 
                 <tr>
                     <th>Nome</th>
                     <th>Telefone</th>
-                    <th>Ações</th> <!-- Coluna para botões -->
+                    <th>Ações</th> 
                 </tr>
             </thead>
             <tbody>
-                <!-- Repete a linha para cada contato da lista -->
                 <tr ng-repeat="contato in contatos">
                     <td>{{contato.nome}}</td>
                     <td>{{contato.telefone}}</td>
                     <td>
-                        <!-- Botões de ação para o contato -->
                         <button class="btn btn-danger btn-sm" ng-click="excluirContato(contato.id)">Excluir</button>
                         <button class="btn btn-primary btn-sm" ng-click="editarContato(contato.id)">Editar</button>
                     </td>
@@ -26,7 +22,6 @@
             </tbody>
         </table>
 
-        <!-- Botões adicionais para outras funcionalidades -->
         <div class="mt-4 d-flex flex-wrap justify-content-center gap-2">
             <button class="btn btn-success" ng-click="adicionarContato()">Adicionar</button>
             <button class="btn btn-warning" ng-click="atualizarContato()">Atualizar</button>

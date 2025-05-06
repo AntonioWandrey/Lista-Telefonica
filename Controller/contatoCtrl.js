@@ -1,5 +1,6 @@
 
 app.controller("contatoCtrl", function ($scope, $stateParams) {
+    
     $scope.message = "Lista telefonica!";
     $scope.name = $stateParams.name;
 
