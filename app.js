@@ -1,12 +1,1 @@
- 
-
-
-
-
-
-
-
-
-
-
-var app = angular.module("HellWord", ['ui.router']);
+ var app = angular.module("HellWord", ['ui.router']);

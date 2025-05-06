@@ -4,20 +4,7 @@ app.controller("contatoCtrl", function ($scope, $stateParams) {
     $scope.name = $stateParams.name;
 
    $scope.app="Lista Telefonica";
-
-
-
-         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
    $scope.contatos = [
         {nome: "Lucas", telefone: "123456789"},
         {nome: "João", telefone: "987654321"},

@@ -2,12 +2,6 @@
 
 app.config(function($stateProvider, $urlRouterProvider) {
 
-  
-  
-  
-  
-  
-  
     $stateProvider
       .state({
         name: "home",
@@ -20,8 +14,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: "./Template/main.html",
         controller: "helloworldCtrl"
       });
-
-  
-  
+      
     $urlRouterProvider.otherwise("/home");
 });
