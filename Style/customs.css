@@ -1,0 +1,58 @@
+/* Estilo do container principal (usado como destaque) */
+.jumbotron {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* sombra leve */
+}
+
+/* Espaçamento superior para tabelas */
+table {
+  margin-top: 20px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+thead th {
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+}
+
+/* Centralização de texto nas células */
+td, th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+/* Espaçamento entre botões */
+button {
+  margin: 2px;
+}
+
+/* Define espaçamento maior entre elementos com gap-2 */
+.gap-2 > * {
+  margin: 5px;
+}
+
+/* Estilo personalizado para botões verdes */
+.btn-custom {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Efeito hover para botão personalizado */
+.btn-custom:hover {
+  background-color: #45a049;
+}
